@@ -1,0 +1,100 @@
+@font-face {
+    font-family: proximanNova-medium;
+    src: url("../../Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-medium.otf");
+}
+
+@font-face {
+    font-family: proximanNova-bold;
+    src: url("../../Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-bold.otf");
+}
+
+@font-face {
+    font-family: proximanNova-semibold;
+    src: url("../../Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-semibold.otf");
+}
+
+@font-face {
+    font-family: proximanNova-extrabold;
+    src: url("../../Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-extrabold.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: proximanNova-medium;
+}
+
+.light{
+    --primary : #FAFAFA;
+    --secondary : #ffff;
+    --text : var(--bs-dark);
+    --border-color : #DBDBDB;
+    --light : #ffff;
+    --link : #09376B;
+    --primary-light : var(--secondary);
+}
+
+.dark{
+    --primary : #121212;
+    --secondary : #000000;
+    --text : var(--bs-white);
+    --border-color : #363636;
+    --light : #262626;
+    --link : #E0F1FD;
+    --primary-light : #262626;
+}
+
+.main-content{
+    width: 83%;
+    background-color: var(--primary);
+    float: right;
+    /* height: 100vh; */
+}
+
+footer{
+    width: 75%;
+}
+
+footer a, footer span{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.modal-content{
+    background-color: var(--primary-light);
+    color: var(--text);
+    border-radius: 10px;
+}
+
+.post-modal-content{
+    height: 80vh;
+}
+
+.post-modal-content button{
+    background-color: #3396F1;
+    border-radius: 10px;
+    font-family: proximanNova-bold;
+    font-size: 15px;
+}
+
+.post-modal-content button:hover{
+    background-color: #1877F2;
+}
+
+.post-modal-body{
+    padding-top: 10rem;
+}
+
+.setting-modal-body a{
+    color: var(--text);
+    text-decoration: none;
+}
+
+.list-group-item{
+    background-color: var(--primary-light);
+}
