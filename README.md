@@ -14,5 +14,9 @@ Frontend: HTML, CSS, JavaScript, React (or your framework of choice)
 Backend: Node.js, Express (if applicable)
 Database: NA
 
+Some Screen Shots of the Oputput:
+
+![image](https://github.com/user-attachments/assets/e32be3be-fac6-4547-943b-11ae38f97f9a)
+
 
 This project aims to mimic Instagram's look and feel, offering an excellent opportunity to practice web development skills in creating social media platforms.
